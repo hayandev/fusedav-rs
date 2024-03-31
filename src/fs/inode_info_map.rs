@@ -158,7 +158,6 @@ impl InodeInfoMap {
                     rdev: 0,
                     flags: 0,
                     blksize: 512,
-                    padding: 0,
                 },
                 f.path.clone(),
             )),
@@ -182,7 +181,6 @@ impl InodeInfoMap {
                     rdev: 0,
                     flags: 0,
                     blksize: 512,
-                    padding: 0,
                 },
                 d.path.clone(),
             )),
@@ -220,7 +218,6 @@ impl InodeInfoMap {
             gid: group_id,
             rdev: 0,
             blksize: 512,
-            padding: 0,
             flags: 0,
         };
     }
